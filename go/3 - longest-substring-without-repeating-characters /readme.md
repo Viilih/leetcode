@@ -29,6 +29,20 @@ Constraints:
 
     0 <= s.length <= 5 * 104
     s consists of English letters, digits, symbols and spaces.
+    CORE IDEA OF THE PROBLEM:a
+    Two pointers
+    start and end
+    longestSubstring = ""
+    for loop (start = 0) -> first letter
+    substring += s[start]
+    for loop ( end = 0) -> first letter
+    the second loop iterates and check if substring does not 
+    contain s[end] -> add the character
+    end for loop (end)
+    if (substring.length > longestSubstring.length ) {
+    longestsubstring = substring
+    
+
 
 
 https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=problem-list-v2&envId=sliding-window
